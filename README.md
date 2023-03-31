@@ -1,2 +1,1 @@
-# GFG-Project
-Our first project together.. Lets hope for the best....   : )
+<h1>MedEase - The online Telemedicine Solution </h1>
