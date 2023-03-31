@@ -43,4 +43,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 <p><b>Front-End<b><p>
     <li><ul>HTML</ul></li>
      <li><ul>CSS</ul></li>
+     <li><ul>BootStrap</ul></li>
+     <li><ul>Java Script</ul></li>
+    
   
