@@ -25,4 +25,6 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
   <ul>MedEase tracks the time spent per call between doctor and patient, providing transparency and accountability and ensuring that patients receive the care they need in a timely manner.</ul>
   </li>
 
+<h2> Flow of the Project </h2>
+
 
