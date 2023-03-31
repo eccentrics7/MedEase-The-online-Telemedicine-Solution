@@ -50,7 +50,17 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
     <li><ul>Google Maps API</ul></li>
      <li><ul>Google Calendar API</ul></li>
      <li><ul>FIREBASE</ul></li>
-     <li><ul>DIALOG FLOW API</ul></li>    
+     <li><ul>Dialog Flow API</ul></li>
+    <br>
+<p><b>CLOUD<b><p>
+    <li><ul>Google Cloud</ul></li>   
+    <br>
+    <p><b>TOOLS<b><p>
+    <li><ul>Github</ul></li>
+     <li><ul>Figma</ul></li>
+     <li><ul>Canva</ul></li>
+    
+    
     
     
   
