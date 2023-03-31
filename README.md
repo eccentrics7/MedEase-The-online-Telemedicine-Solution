@@ -27,4 +27,6 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 
 <h2> Flow of the Project </h2>
 
+<li>
+    <ul>User Login<ul>The patient and doctor log in to the platform using their registered email and password.</ul></ul></li>
 
