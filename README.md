@@ -29,3 +29,14 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 
 <li><ul>User Login<ul>The patient and doctor log in to the platform using their registered email and password.</ul></ul></li>
 <li><ul>Patient logs in and fills in the issue.<ul>The patient fills in their issue(s) and shares relevant information regarding their health history, current symptoms, etc.</ul></ul></li>
+<li><ul>Doctor schedules the appointment.<ul>Based on the patient's issue(s), the doctor schedules a video conference call for consultation.</ul></ul></li>
+<li><ul>Doctor and patient join the video conference call.<ul>The doctor and patient connect on the platform via a video conference call.</ul></ul></li>
+<li><ul>Doctor and patient discuss issues.<ul>The doctor and patient discuss the patient's issue(s) and explore possible treatment options.</ul></ul></li>
+<li><ul>Doctor fills in advice.<ul>Based on the discussion, the doctor fills in advice regarding the patient's issue(s) and possible treatment options.</ul></ul></li>
+<li><ul>Patient prints advice.<ul>The patient has the option to print the advice for their reference.</ul></ul></li>
+<li><ul>Doctor and patient can send chat messages to each other.<ul>The doctor and patient can also send chat messages to each other for further clarification or follow-up.</ul></ul></li>
+<li><ul>Patient can share documents with the doctor.<ul>The patient can share relevant documents, such as medical reports, test results, etc., with the doctor for further analysis.</ul></ul></li>
+<li><ul>End of consultation.<ul>Once the consultation is over, the doctor ends the video conference call, and the patient logs out of the platform.</ul></ul></li>
+<li><ul>Prescription Storage for Future purpose<ul>After the end of consultancy also prescription is stored for a time </ul></ul></li>
+
+
