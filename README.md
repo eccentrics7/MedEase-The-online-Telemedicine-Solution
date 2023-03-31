@@ -59,9 +59,8 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
     <li><ul>Github</ul></li>
      <li><ul>Figma</ul></li>
      <li><ul>Canva</ul></li>
-    
-        <h2>Contributers</h2>
-        <li><ul>R.V.Sidhardha - <a href="https://github.com/sidhu2003">GITHUB</a></ul></li>
+    <h2>Contributers</h2>
+   <li><ul>R.V.Sidhardha - <a href="https://github.com/sidhu2003">GITHUB</a></ul></li>
      <li><ul>Figma</ul></li>
      <li><ul>Canva</ul></li>
         
