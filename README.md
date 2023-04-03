@@ -62,7 +62,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
     <h2>Contributers</h2>
    <li><ul>R.V.Sidhardha - <a href="https://github.com/sidhu2003">GITHUB</a></ul></li>
      <li><ul>P.Sai Gowtham - <a href="https://github.com/p-sai-gowtham">GITHUB</a></ul></li>
-     <li><ul>Reshma Tejeswani.P- <a href="https://github.com/Reshma417">GITHUB</a></ul></li>
+     <li><ul>Reshma Tejeswani.P- <a href="https://github.com/Reshma4167">GITHUB</a></ul></li>
       <li><ul>V.Eswar Rao - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></ul></li>   
         
         
