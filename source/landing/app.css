@@ -1,0 +1,17 @@
+body{
+    background-color: #F0FBFC;
+
+}
+a{
+    margin-left: 1em;
+    padding: 7em;
+}
+.link{
+    padding-left: 600px;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+.btn-outline-info{
+    background-color: #008893;
+}
