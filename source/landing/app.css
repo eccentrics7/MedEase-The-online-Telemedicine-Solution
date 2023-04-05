@@ -26,19 +26,24 @@ a {
     /* display:flex;
     justify-content: center;
     align-items: center;  */
-    height: 30em;
+    height: 40em;
     width: 74em;
     margin-left: 9em;
-     display: grid; 
+    display: grid; 
     position: relative;
+    border-radius: 50px;
+    margin-top: 7.4em;
+    margin-bottom: 5em;
+    
 }
 
-.rounded{
+.round{
     width: 100%;
-    height: 100%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50px;
 }
 
 .navbar-brand {
@@ -67,7 +72,9 @@ p{
 
 } 
 
-.card{
-    background-color: #F0FBFC;
-
+.col1{
+    padding-left: 80px;
+}
+.bottom{
+    background-color: #008893;
 }
