@@ -1,80 +1,81 @@
 body {
-    background-color: #F0FBFC;
+    background-color: #f0fbfc;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-1 {
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 0.8em;
 
 }
 
-a {
-    margin-left: 1em;
-    padding: 7em;
+.txt-2 {
+    font-weight: 300px;
+    font-size: 3em;
+    margin-top: -0.4em;
 }
 
-.link {
-    padding-left: 600px;
+.row {
+    margin-top: 0.6em;
 }
 
-.navbar-brand {
-    padding-left: 20px;
+.card-body {
+    background-color: #f0fbfc;
+    border-style: none;
+}
+.col1,
+.col2,
+.col3 {
+    margin-top: 1.5%;
 }
 
-.btn-outline-info {
-    background-color: #008893;
-}
 
-#carouselExampleSlidesOnly {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* display:flex;
-    justify-content: center;
-    align-items: center;  */
-    height: 40em;
-    width: 74em;
-    margin-left: 9em;
-    display: grid; 
-    position: relative;
-    border-radius: 50px;
-    margin-top: 7.4em;
-    margin-bottom: 5em;
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {}
+
+@media (min-width: 576px) {
     
 }
 
-.round{
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
+@media (min-width: 768px) {
+    
 }
 
-.navbar-brand {
-    padding-left: 3.5em;
-}
-.block{
-    font-weight: bold;
-    margin: 0px;
-}
-p{
-    font-size: 3em;
-}
-.row{
-    padding-left: 20em;
-}
+@media (min-width: 992px) {
+    #navLinks {
+        margin-left: 29.5%;
+    }
 
-.textcardbody{
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-top: 1em;
-    padding-right:20px ;
-}
+    #carouselExampleFade {
+        height: 80%;
+        width: 80%;
+        margin-left: 8.5%;
+        margin-top: 39px;
+    }
 
-.textcardbodyp{
-    font-size: 1em;
+    #carouselExampleFade img {
+        border-radius: 2em;
+    }
 
-} 
-
-.col1{
-    padding-left: 80px;
-}
-.bottom{
-    background-color: #008893;
+    .row {
+        margin-left: 10.5%;
+        margin-right: 8.5%;
+    }
+        .col1,
+        .col2,
+        .col3 {
+            margin-top: 0%;
+        }
 }
