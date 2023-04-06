@@ -12,7 +12,7 @@ body {
 }
 
 .txt-2 {
-    font-weight: 300px;
+    font-weight: 100px;
     font-size: 3em;
     margin-top: -0.4em;
 }
@@ -30,6 +30,18 @@ body {
 .col3 {
     margin-top: 1.5%;
 }
+.bottom{
+    background-color: #008893;
+}
+.img{
+    margin-left: 8.5%;
+    height: 80%;
+    width: 80%;
+    margin-top: 2%;
+}
+.space{
+    margin-top: 2%;
+}
 
 
 
@@ -42,8 +54,9 @@ body {
 
 
 
+@media (max-width: 576px) {
 
-@media (max-width: 576px) {}
+}
 
 @media (min-width: 576px) {
     
@@ -78,4 +91,6 @@ body {
         .col3 {
             margin-top: 0%;
         }
+        
+        
 }
