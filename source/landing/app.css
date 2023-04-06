@@ -25,46 +25,97 @@ body {
     background-color: #f0fbfc;
     border-style: none;
 }
+
 .col1,
 .col2,
 .col3 {
     margin-top: 1.5%;
 }
-.bottom{
+
+.bottom {
     background-color: #008893;
 }
-.img{
+
+.img {
     margin-left: 8.5%;
     height: 80%;
     width: 80%;
     margin-top: 2%;
 }
-.space{
+
+.space {
     margin-top: 2%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 576px) {
-
+.containerwidth {
+    width: 100%;
 }
 
-@media (min-width: 576px) {
-    
+.wrapper {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
-@media (min-width: 768px) {
-    
+.toggle,
+.content {
+    font-family: "Poppins", sans-serif;
 }
+
+.toggle {
+    width: 100%;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #111130;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.content {
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.faq{
+    margin-top: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
 
 @media (min-width: 992px) {
     #navLinks {
@@ -86,11 +137,12 @@ body {
         margin-left: 10.5%;
         margin-right: 8.5%;
     }
-        .col1,
-        .col2,
-        .col3 {
-            margin-top: 0%;
-        }
-        
-        
+
+    .col1,
+    .col2,
+    .col3 {
+        margin-top: 0%;
+    }
+
+
 }
