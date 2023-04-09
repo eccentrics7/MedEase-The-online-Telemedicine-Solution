@@ -66,14 +66,18 @@ body{
     position: absolute;
     top: 120px;
     box-shadow: 1px 1px 10px 2px #000;
+    height: 80%;
 }
 
 .nav-a{
     padding-top: 20px;
+    margin-left: 2px;
 }
 
-.nav-a:nth-of-type(5){
-    padding-bottom: 20px;
+.nav-a:nth-of-type(1){
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-top:2px;
 }
 
 .navbar{
@@ -133,22 +137,6 @@ body{
     left: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* xs */
 
 @media ((min-width: 0px) and (max-width: 576px)) {
@@ -193,24 +181,6 @@ body{
             padding-left: 10%;
         }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 
