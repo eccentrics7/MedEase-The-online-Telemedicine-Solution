@@ -10,23 +10,35 @@ body {
     color: #008893;
 }
 
-.nav {
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #008893 !important;
+    border-color: #008893 !important;
+}
+
+
+
+
+.nav{
     background-color: #008893;
     width: 70px;
     border-radius: 0px 1em 1em 0px;
     padding: 0.4%;
     position: absolute;
+    left:0%;
     top: 120px;
-    left: 0;
     box-shadow: 1px 1px 10px 2px #000;
+    height: 80%;
 }
 
-.nav-a {
+.nav-a{
     padding-top: 20px;
+    margin-left: 2px;
 }
 
-.nav-a:nth-of-type(5) {
-    padding-bottom: 20px;
+.nav-a:nth-of-type(1){
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-top:2px;
 }
 
 .navbar {
@@ -35,14 +47,17 @@ body {
 
 .page {
     height: 100%;
-    width: 100%;
+    width: 80%;
     background-color: rgba(0, 136, 147, 0.19);
     border-radius: 1.5em;
     padding-left:5%;
     padding-right: 10%;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     box-shadow: 1px 1px 10px 2px #000;
+    margin-bottom: 20%;
+    margin-top: 3.6%;
+    margin-left: 1%;
 }
 
 #book-form{
@@ -55,16 +70,37 @@ body {
 }
 
 .times{
-    width: 85%;
-    height: 2em;
+    /* width: 85%; */
+    height: 3em;
+    margin-top:30%;
+    font-size: 100%;
 }
 
+.t1 , .t2{
+    margin-left: 40%;
+    
+    
+}
 
+.t3 , .t4{
+    margin-left: 40%;
+}
 
+.heading{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 2%;
+}
 
+.ips {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
 
-
-
+/* .sub{
+    margin-top: 6%;
+} */
 
 
 
@@ -74,7 +110,8 @@ body {
 
 /* small */
 
-@media ((min-width: 576px) and (max-width: 768px)) {}
+@media ((min-width: 576px) and (max-width: 768px)) {
+}
 
 /* medium */
 
