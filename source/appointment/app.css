@@ -1,40 +1,107 @@
-.text-center {
-    text-align: center;
-    color:#008893;
-    padding-top: 3%;
-    padding-bottom: 3%; 
+body {
+    background-color: #f0fbfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.page {
-    width: 70%;
-    height: 500px;
-    margin-left: 15%;
-    background-color: #00889330;
-    border-radius: 30px;
-    margin-bottom: 10%;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  }
-  /*nav bar*/
-  .nav{
+
+.primary {
+    color: #008893;
+}
+
+.nav {
     background-color: #008893;
     width: 70px;
     border-radius: 0px 1em 1em 0px;
     padding: 0.4%;
     position: absolute;
     top: 120px;
+    left: 0;
     box-shadow: 1px 1px 10px 2px #000;
 }
 
-.nav-a{
+.nav-a {
     padding-top: 20px;
 }
 
-.nav-a:nth-of-type(5){
+.nav-a:nth-of-type(5) {
     padding-bottom: 20px;
 }
 
-.navbar{
+.navbar {
     display: none;
 }
+
+.page {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 136, 147, 0.19);
+    border-radius: 1.5em;
+    padding-left:5%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 1px 1px 10px 2px #000;
+}
+
+#book-form{
+    width: 80%;
+}
+
+.img-1{
+    width: 50%;
+    height: 100%;
+}
+
+.times{
+    width: 85%;
+    height: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+/* xs */
+
+@media ((min-width: 0px) and (max-width: 576px)) {}
+
+/* small */
+
+@media ((min-width: 576px) and (max-width: 768px)) {}
+
+/* medium */
+
+@media ((min-width: 768px) and (max-width: 992px)) {}
+
+/* large */
+
+@media (min-width: 992px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 * {
@@ -185,19 +252,20 @@ footer a:hover {
 }
 
 @media (max-width:576px) {
-    footer {position: relative;
+    footer {
+        position: relative;
     }
-    
+
     footer .content-f .box-f {
         width: 100%;
         margin-top: 30px;
     }
-    
+
     footer .content-f .middle {
         padding-left: 0;
     }
-    }
-    
-    a {
-        text-decoration: none;
-    }
+}
+
+a {
+    text-decoration: none;
+}
