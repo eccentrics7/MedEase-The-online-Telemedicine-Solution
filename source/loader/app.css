@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.custom-loader {
+    width: 72px;
+    height: 72px;
+    color: #008893;
+    background: linear-gradient(45deg, #0000 24%, currentColor 0 76%, #0000 0);
+    position: relative;
+    animation: sp3-0 1.5s infinite;
+}
+
+.custom-loader:before,
+.custom-loader:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: currentColor;
+    transform-origin: top left;
+    clip-path: polygon(-4px 0, 0 -2px, 100% 100%, -4px 100%);
+    inset: auto auto 0 0;
+    animation: sp3-1 1.5s infinite;
+}
+
+.custom-loader:after {
+    inset: 0 0 auto auto;
+    transform-origin: bottom right;
+    clip-path: polygon(0 0, calc(100% + 4px) 0, calc(100% + 4px) 100%, 100% calc(100% + 2px));
+}
+
+@keyframes sp3-0 {
+
+    0%,
+    50% {
+        transform: skewX(0)
+    }
+
+    90%,
+    100% {
+        transform: skewX(-45deg)
+    }
+}
+
+@keyframes sp3-1 {
+
+    40%,
+    100% {
+        transform: rotate(180deg);
+        box-shadow: 0 0 0 6px;
+    }
+}
+
+.custom-loader {
+  width: 36px;
+  height: 36px;
+  color: #008893;
+  background:linear-gradient(45deg,#0000 24%,currentColor 0 76%,#0000 0);
+  position: relative;
+  animation: sp3-0 1.5s infinite;
+}
+.custom-loader:before,
+.custom-loader:after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background:currentColor; 
+  transform-origin: top left;
+  clip-path: polygon(-2px 0,0 -1px,100% 100%,-2px 100%);
+  inset:auto auto 0 0;
+  animation: sp3-1 1.5s infinite;
+}
+
+.custom-loader {
+    width: 72px;
+    height: 72px;
+    color: #766DF4;
+    background:linear-gradient(45deg,#0000 24%,currentColor 0 76%,#0000 0);
+    position: relative;
+    animation: sp3-0 1.5s infinite;
+  }
+  .custom-loader:before,
+  .custom-loader:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background:currentColor; 
+    transform-origin: top left;
+    clip-path: polygon(-4px 0,0 -2px,100% 100%,-4px 100%);
+    inset:auto auto 0 0;
+    animation: sp3-1 1.5s infinite;
+  }
+  
+  .custom-loader:after {
+    inset:0 0 auto auto;
+    transform-origin: bottom right;
+    clip-path: polygon(0 0,calc(100% + 4px) 0,calc(100% + 4px) 100%,100% calc(100% + 2px));
+  }
+  
+  @keyframes sp3-0 {
+   0% ,50%   {transform:skewX(0)}
+   90%,100%  {transform:skewX(-45deg)}
+  }
+  
+  @keyframes sp3-1 {
+   40%,100%  {transform:rotate(180deg);box-shadow: 0 0 0 6px;}
+  }
