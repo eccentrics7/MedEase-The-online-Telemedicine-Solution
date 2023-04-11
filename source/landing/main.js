@@ -5,7 +5,6 @@ const myCarouselElement = document.querySelector('#carouselExampleFade')
             touch: false
         })
 
-  //<![CDATA[
         let toggles = document.getElementsByClassName("toggle");
         let contentDiv = document.getElementsByClassName("content");
         let icons = document.getElementsByClassName("icon");
@@ -34,4 +33,3 @@ const myCarouselElement = document.querySelector('#carouselExampleFade')
                 }
             });
         }
-//]]>
