@@ -14,7 +14,7 @@ Overall, MedEase is a reliable and easy-to-use platform that offers patients the
 
 <h2> Features </h2>
 <li>The application is designed to cater to the needs of multiple doctors and hospitals, providing a comprehensive healthcare solution that is scalable and flexible to meet the needs of any healthcare organization.</li>
-   <li> <ul>The website provides a range of advanced features that make it easy for patients to receive the care they need from the comfort of their own homes.</li>
+   <li>The website provides a range of advanced features that make it easy for patients to receive the care they need from the comfort of their own homes.</li>
   <li>
 Doctors on MedEase can fill prescriptions and provide medication to patients as needed, ensuring that patients receive the care they need quickly and efficiently. Patients can input their problems into the system, allowing doctors to understand their needs and provide the best possible care.</li>
   <li>The chat message support feature enables patients and doctors to communicate easily and securely, ensuring that patients receive the support and advice they need when they need it.</li>
