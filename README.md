@@ -38,29 +38,29 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 
 <h2>Technologies Used :</h2>
 <p><b>Front-End<b><p>
-    <li><ul>HTML</ul></li>
-     <li><ul>CSS</ul></li>
-     <li><ul>BootStrap</ul></li>
-     <li><ul>Java Script</ul></li>
+    <li>HTML</li>
+     <li>CSS</li>
+     <li>BootStrap</li>
+     <li>Java Script</li>
     <br>
 <p><b>BACKEND<b><p>
-    <li><ul>Google Maps API</ul></li>
-     <li><ul>Google Calendar API</ul></li>
-     <li><ul>FIREBASE</ul></li>
-     <li><ul>Dialog Flow API</ul></li>
+    <li>Google Maps API</li>
+     <li>Google Calendar API</li>
+     <li>FIREBASE</li>
+     <li>Dialog Flow API</li>
     <br>
 <p><b>CLOUD<b><p>
-    <li><ul>Google Cloud</ul></li>   
+    <li>Google Cloud</li>   
     <br>
     <p><b>TOOLS<b><p>
-    <li><ul>Github</ul></li>
-     <li><ul>Figma</ul></li>
-     <li><ul>Canva</ul></li>
+    <li>Github</li>
+     <li>Figma</li>
+     <li>Canva</li>
     <h2>Team Members :</h2>
-   <li><ul>R.V.Sidhardha - <a href="https://github.com/sidhu2003">GITHUB</a></ul></li>
-     <li><ul>P.Sai Gowtham - <a href="https://github.com/p-sai-gowtham">GITHUB</a></ul></li>
-     <li><ul>Reshma Tejeswani.P- <a href="https://github.com/Reshma4167">GITHUB</a></ul></li>
-      <li><ul>V.Eswara Rao - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></ul></li>   
+   <li>R.V.Sidhardha - <a href="https://github.com/sidhu2003">GITHUB</a></li>
+     <li>P.Sai Gowtham - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
+     <li>Reshma Tejeswani.P- <a href="https://github.com/Reshma4167">GITHUB</a></li>
+      <li>V.Eswara Rao - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></li>   
         
         
     
