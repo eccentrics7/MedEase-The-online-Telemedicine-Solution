@@ -74,7 +74,7 @@ body {
 }
 
 .times{
-    /* width: 85%; */
+    width: 67%;
     height: 3em;
     margin-top:30%;
     font-size: 100%;
@@ -87,7 +87,7 @@ body {
 }
 
 .t3 , .t4{
-    margin-left: 40%;
+    margin-left: 0%;
 }
 
 .heading{
