@@ -1,0 +1,27 @@
+.page {
+    width: 45%;
+    height: 400px;
+    padding: 50px 40px 20px 40px;
+    margin-top: 10%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  body{
+      background-color: #f0fbfc;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top:3.5%;
+  }
+  *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+   }
+   .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #008893 !important;
+    border-color: #008893 !important;
+}
+  
