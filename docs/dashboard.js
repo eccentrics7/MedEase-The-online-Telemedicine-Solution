@@ -56,28 +56,6 @@ addEventListener('resize', () => {
               .innerHTML = currentTime;
   }
   showTime();
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   class Dashboard {
     constructor(date,time,doctor,link){
