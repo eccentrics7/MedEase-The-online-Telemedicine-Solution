@@ -58,3 +58,74 @@ addEventListener('resize', () => {
   showTime();
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  class Dashboard {
+    constructor(date,time,doctor,link){
+        this.date = date;
+        this.time = time;
+        this.doctor = doctor;
+        this.link = link;
+    }
+}
+
+class UI { 
+    static displayDashboard() { 
+      const dashboard = [
+        {
+          date: '12/12/2020',
+          time: '12:00 PM',
+          doctor: 'Dr. John',
+          link: '2sgg-bn47-ltci'
+          }
+        ];
+        dashboard.forEach((item) => UI.addBookToList(item));
+    }
+    static addBookToList(item) {
+        const list = document.getElementById('book-list');
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+        <td>${item.date}</td>
+        <td>${item.time}</td>
+        <td>${item.doctor}</td>
+        <td>${item.link}</td>
+        <td><a href="./video.html" class="btn btn-primary">Join Meet</a></td>
+        `;
+        list.appendChild(tr);
+
+    }
+}
+
+
+//displayDashboard
+document.addEventListener('DOMContentLoaded', UI.displayDashboard());
+
+//Add book
+document.getElementById('book-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  
+        const item = new Dashboard(date, time, doctor,link);
+
+  UI.addBookToList(item);
+    
+    
+});
