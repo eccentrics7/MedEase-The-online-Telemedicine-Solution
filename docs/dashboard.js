@@ -55,8 +55,8 @@ addEventListener('resize', () => {
       document.getElementById("clock")
               .innerHTML = currentTime;
   }
-  showTime();
-
+showTime();
+  
   class Dashboard {
     constructor(date,time,doctor,link){
         this.date = date;
@@ -76,9 +76,9 @@ class UI {
           link: '2sgg-bn47-ltci'
           }
         ];
-        dashboard.forEach((item) => UI.addBookToList(item));
+        dashboard.forEach((item) => UI.addItemToList(item));
     }
-    static addBookToList(item) {
+    static addItemToList(item) {
         const list = document.getElementById('book-list');
         const tr = document.createElement('tr');
         tr.innerHTML = `
@@ -103,7 +103,7 @@ document.getElementById('book-form').addEventListener('submit', (e) => {
   
         const item = new Dashboard(date, time, doctor,link);
 
-  UI.addBookToList(item);
+  UI.addItemToList(item);
     
     
 });
