@@ -39,8 +39,8 @@ body{
 /*large screen*/
 @media (min-width: 992px) {
     #navLinks {
-        margin-left: 29.5%;
-    }
+            margin-left: 20%;
+        }
 }
 
 .head1{
