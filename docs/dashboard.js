@@ -58,11 +58,11 @@ addEventListener('resize', () => {
 showTime();
   
   class Dashboard {
-    constructor(date,time,doctor,link){
+    constructor(date,time,doctor,code){
         this.date = date;
         this.time = time;
         this.doctor = doctor;
-        this.link = link;
+        this.code = code;
     }
 }
 
@@ -70,10 +70,11 @@ class UI {
     static displayDashboard() { 
       const dashboard = [
         {
+          sno: '1',
           date: '12/12/2020',
           time: '12:00 PM',
           doctor: 'Dr. John',
-          link: '2sgg-bn47-ltci'
+          code: '2sgg-bn47-ltci'
           }
         ];
         dashboard.forEach((item) => UI.addItemToList(item));
@@ -82,10 +83,11 @@ class UI {
         const list = document.getElementById('book-list');
         const tr = document.createElement('tr');
         tr.innerHTML = `
+        <td>${item.sno}</td>
         <td>${item.date}</td>
         <td>${item.time}</td>
         <td>${item.doctor}</td>
-        <td>${item.link}</td>
+        <td>${item.code}</td>
         <td><a href="./video.html" class="btn btn-primary">Join Meet</a></td>
         `;
         list.appendChild(tr);
@@ -101,7 +103,7 @@ document.addEventListener('DOMContentLoaded', UI.displayDashboard());
 document.getElementById('book-form').addEventListener('submit', (e) => {
   e.preventDefault();
   
-        const item = new Dashboard(date, time, doctor,link);
+        const item = new Dashboard(date, time, doctor,code);
 
   UI.addItemToList(item);
     
