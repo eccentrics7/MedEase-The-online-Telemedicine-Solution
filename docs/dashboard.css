@@ -104,16 +104,44 @@ body{
     width: 50%;
 }
 
-.weather{
+.weather {
     margin-top: 20%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.img-2{
-    height: 50%;
-    width: 70%;
+.weather1 {
+    background-color: #008893;
+    height: 100px;
+    width: 90%;
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 20px 2px #000;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 0.8fr);
+    align-content: center;
+}
+
+.weather2 {
+    border-right: 1px solid #fff;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+}
+.weather2:nth-of-type(2){
+    border-right: none;
+}
+
+#state{
+    margin-right: 0.5em;
+}
+
+.infox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .quote{
