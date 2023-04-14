@@ -56,6 +56,8 @@ addEventListener('resize', () => {
               .innerHTML = currentTime;
   }
 showTime();
+
+//dashboard
   
   class Dashboard {
     constructor(date,time,doctor,code){
@@ -99,13 +101,50 @@ class UI {
 //displayDashboard
 document.addEventListener('DOMContentLoaded', UI.displayDashboard());
 
-//Add book
-document.getElementById('book-form').addEventListener('submit', (e) => {
-  e.preventDefault();
-  
-        const item = new Dashboard(date, time, doctor,code);
+//Add item
 
-  UI.addItemToList(item);
+// document.getElementById('book-form').addEventListener('submit', (e) => {
+//   e.preventDefault();
+  
+//         const item = new Dashboard(date, time, doctor,code);
+
+//   UI.addItemToList(item);
     
     
-});
+// });
+
+//weather
+
+const apiKey = "dab1e0cfb7b1ffef8e90df4ddce810d3";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric";
+const city = "Kolkata"
+const temp_max = document.querySelector(".temp_max");
+const temp_min = document.querySelector(".temp_min");
+const icon = document.querySelector(".iconw");
+const state = document.querySelector("#state");
+
+async function getWeather() {
+  const response = await fetch(`${apiUrl}&appid=${apiKey}&q=${city}`);
+  const data = await response.json();
+  console.log(data);
+  const tempMin = Math.round(data.main.temp_min);
+  const tempMax = Math.round(data.main.temp_max);
+  temp_max.innerHTML = tempMax;
+  temp_min.innerHTML = tempMin - 5;
+  if(data.weather[0].main == "Clouds"){
+    icon.src = "https://img.icons8.com/sf-black/64/FFFFFF/clouds.png";
+  }else if(data.weather[0].main == "Clear"){
+    icon.src = "https://img.icons8.com/external-kosonicon-outline-kosonicon/64/FFFFFF/external-clear-sky-weather-kosonicon-outline-kosonicon.png";
+  }else if(data.weather[0].main == "Rain"){
+    icon.src = "https://img.icons8.com/ios/50/FFFFFF/heavy-rain.png";
+  }else if(data.weather[0].main == "Drizzle"){
+    icon.src = "https://img.icons8.com/ios/50/FFFFFF/light-rain--v1.png.png";
+  }else if(data.weather[0].main == "Mist"){
+    icon.src = "https://img.icons8.com/ios/50/FFFFFF/fog-day--v1.png";
+  } else {
+    icon.src = "https://img.icons8.com/ios/50/FFFFFF/fog-day--v1.png";
+  }
+  state.innerHTML = city;
+}
+
+getWeather();
