@@ -89,27 +89,6 @@ class UI {
 //displayDashboard
 document.addEventListener("DOMContentLoaded", UI.displayDashboard());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Side Menu
 addEventListener("resize", () => {
   const width = innerWidth;
