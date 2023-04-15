@@ -186,7 +186,7 @@ getWeather();
 // calendar
 var cal = {
  
-    sMon : false, /
+    sMon : false, 
     data : null, 
     sDay : 0, sMth : 0, sYear : 0, 
   
