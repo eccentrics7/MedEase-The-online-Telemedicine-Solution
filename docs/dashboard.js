@@ -13,13 +13,14 @@ var time = "10:00 AM";
 var doctor = "Dr. Srikar";
 var code = "3grk-ptk3-lv15";
 const ppage = document.referrer;
+const page = ppage.split("/").pop();
+
 
 const check =
-  "http://127.0.0.1:5500/med/MedEase-The-online-Telemedicine-Solution/docs/appointment.html";
-
+  "appointment.html";
   const pay = document.querySelector(".modal");
   const dashboard = document.querySelector(".dashboard");
-if (ppage == check) {
+if (page == check) {
   dashboard.style.display = "none";
   pay.style.display = "block";
   pay.style.position = "absolute";
