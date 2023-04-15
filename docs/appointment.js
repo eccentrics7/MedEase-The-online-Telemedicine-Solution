@@ -185,3 +185,23 @@ var cal = {
     }}
   };
   window.onload = cal.init;
+
+// Side Menu
+addEventListener("resize", () => {
+  const width = innerWidth;
+
+  if (width < 768) {
+    document.querySelector(".nav").style.display = "none";
+    document.querySelector(".navbar").style.display = "block";
+  } else {
+    document.querySelector(".nav").style.display = "flex";
+    document.querySelector(".navbar").style.display = "none";
+  }
+});
+
+
+const button = document.querySelector(".submit");
+
+button.addEventListener("click", function () { 
+    window.location.href = "./dashboard.html";
+});
