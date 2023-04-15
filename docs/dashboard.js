@@ -33,7 +33,8 @@ if (ppage == check) {
 
 const checkout = document.querySelector(".checkout");
 
-checkout.addEventListener("click", () => { 
+checkout.addEventListener("click", (e) => { 
+  e.preventDefault();
   dashboard.style.display = "block";
   pay.style.display = "none";
   num = num + 1;
