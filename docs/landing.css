@@ -95,7 +95,9 @@ body {
     -o-transition: all 1s;
     transition: all 1s;
 }
-
+#bld{
+    font-weight: 600;
+}
 .bottom{
     margin-top: 4%;
 }
