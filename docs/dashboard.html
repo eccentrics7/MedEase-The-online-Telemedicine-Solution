@@ -104,7 +104,31 @@
             </div>
             <div class="offcanvas-body">
                 <div class="containe-fluid mb-5 pb-5 offcan-b">
-                    <img class="img-fluid img-1" src="img/icon-g656a2d630_1920.png" alt="">
+                    
+                     <div class="container calendar">
+                <div id="calPeriod">
+                  <input id="calBack" type="button" value="&lt;" />
+                  <select id="calMonth"></select>
+                  <input type="number" id="calYear" />
+                  <input id="calNext" type="button" value="&gt;" />
+                </div>
+
+                <div id="calWrap"></div>
+
+                <dialog id="calForm">
+                  <form method="dialog">
+                    <div id="evtClose">X</div>
+                    <h2>CALENDAR EVENT</h2>
+                    <label>Date</label>
+                    <input type="text" id="evtDate" readonly />
+                    <label>Details</label>
+                    <textarea id="evtTxt" required></textarea>
+
+                    <input id="evtDel" type="button" value="Delete" />
+                    <input id="evtSave" type="submit" value="Save" />
+                  </form>
+                </dialog>
+              </div>
                     <div class="container weather">
                         <div class="container-fluid infox">
                             <div class="text-light fs-3" id="clock">8:10:45</div>
