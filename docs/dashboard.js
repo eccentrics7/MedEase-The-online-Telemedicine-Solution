@@ -42,7 +42,7 @@ checkout.addEventListener("click", (e) => {
     date = "16/4/2023";
     time = "11:00 AM";
     doctor = "Dr. Reshma";
-    code = "g0gs-4pix-l3jd";
+    code = "tnyp-v40z-5y8b";
   } else if (num === 3) {
     date = "17/4/2023";
     time = "12:00 AM";
