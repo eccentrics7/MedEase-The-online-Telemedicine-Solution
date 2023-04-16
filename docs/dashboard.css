@@ -660,10 +660,20 @@ body {
 
 .chat-btn {
     position: absolute;
-    right: 14px;
-    bottom: 30px;
+    right: 40px;
+    bottom: 10px;
     cursor: pointer
 }
+
+.bot{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 1100px;
+} 
+
 
 .chat-btn .close {
     display: none
