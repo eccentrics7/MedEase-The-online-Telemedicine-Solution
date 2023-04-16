@@ -167,7 +167,7 @@
                     <th>Time</th>
                     <th>Doctor</th>
                     <th>Code</th>
-                    <th></th>
+                    <th>Link</th>
                 </tr>
             </thead>
             <tbody id="book-list"></tbody>
@@ -177,27 +177,29 @@
     <!-- bottom -->
 
     <div class="container-fluid bottom">
+       
         <div class="container">
             <p class="text-center text-light txt-1"> Accessible from everywhere</p>
             <p class="text-center text-light txt-2">
                 Your desktop, tablet & smartphone</p>
             <img src="img/accessiblefromanywhere.png" class="img" alt="">
-
         </div>
     </div>
-        
-    <input type="checkbox" id="check"> <label class="chat-btn" for="check"> <i class="fa fa-commenting-o comment"></i> <i
-            class="fa fa-close close"></i> </label>
-    <div class="wrapper">
-        <iframe allow="microphone;" width="350" height="430"
-            src="https://console.dialogflow.com/api-client/demo/embedded/a2a13de6-b506-4521-8512-1b3eaa5dc02f">
-        </iframe>
-        
-    </div>
+    <!-- chatbot -->
+    
     
     <!-- footer -->
     
     <footer>
+        <div class="bot">
+            <input type="checkbox" id="check"> <label class="chat-btn" for="check"> <i class="fa fa-commenting-o comment"></i> <i
+                class="fa fa-close close"></i> </label>
+        <div class="wrapper">
+            <iframe id="bot "allow="microphone;" width="350" height="430"
+                src="https://console.dialogflow.com/api-client/demo/embedded/a2a13de6-b506-4521-8512-1b3eaa5dc02f">
+            </iframe>
+        </div>
+        </div>
         <div class="content-f">
             <div class="left box-f">
                 <div class="upper">
