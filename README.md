@@ -72,10 +72,10 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
       <br> 
     <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png">
     <h2>Team Members :</h2>
-   <li>R.V.Sidhardha - Backend Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
-     <li>P.Sai Gowtham - Frontend Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
-     <li>Reshma Tejeswani.P - Backend Developer , Content Head - <a href="https://github.com/Reshma4167">GITHUB</a></li>
-      <li>V.Eswara Rao -  Frontend Developer , Tester - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></li>   
+   <li>R.V.Sidhardha -  Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
+     <li>P.Sai Gowtham -  Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
+     <li>Reshma Tejeswani.P -  Developer , Content Head - <a href="https://github.com/Reshma4167">GITHUB</a></li>
+      <li>V.Eswara Rao -   Developer , Tester - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></li>   
         
         
     
