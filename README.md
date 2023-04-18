@@ -58,10 +58,10 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
      <li>Figma</li>
      <li>Canva</li>
     <h2>Team Members :</h2>
-   <li>R.V.Sidhardha - Backend Developer , Cloud Developer ,UI Designer<a href="https://github.com/sidhu2003">GITHUB</a></li>
-     <li>P.Sai Gowtham - Frontend Developer , UX Developer<a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
-     <li>Reshma Tejeswani.P - Backend Developer , Content Head<a href="https://github.com/Reshma4167">GITHUB</a></li>
-      <li>V.Eswara Rao -  Frontend Developer , Tester<a href="https://github.com/ESWARVETLA-19">GITHUB</a></li>   
+   <li>R.V.Sidhardha - Backend Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
+     <li>P.Sai Gowtham - Frontend Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
+     <li>Reshma Tejeswani.P - Backend Developer , Content Head - <a href="https://github.com/Reshma4167">GITHUB</a></li>
+      <li>V.Eswara Rao -  Frontend Developer , Tester - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></li>   
         
         
     
