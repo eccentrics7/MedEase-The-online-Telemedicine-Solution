@@ -34,7 +34,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 <li><ul>Patient can share documents with the doctor.<ul>The patient can share relevant documents, such as medical reports, test results, etc., with the doctor for further analysis.</ul></ul></li>
 <li><ul>End of consultation.<ul>Once the consultation is over, the doctor ends the video conference call, and the patient logs out of the platform.</ul></ul></li>
 <li><ul>Prescription Storage for Future purpose<ul>After the end of consultancy also prescription is stored for a time </ul></ul></li>
-<h2> Here is the Complete Documentation 🔗 </h2>
+<h2> Documentation 🔗 </h2>
 Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpleh1S39FQWaO7uBQ/edit#">DOCUMENTATION</a></h4>
 <h2>Technologies Used :</h2>
 <p><b>Front-End<b><p>
