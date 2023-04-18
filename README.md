@@ -36,15 +36,6 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 <li><ul>Prescription Storage for Future purpose<ul>After the end of consultancy also prescription is stored for a time </ul></ul></li>
 <h2> Documentation 🔗 </h2>
 Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpleh1S39FQWaO7uBQ/edit#">DOCUMENTATION</a></h4>
-<h2>CHATBOT 🤖 </h2>
-
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/a2a13de6-b506-4521-8512-1b3eaa5dc02f">
-</iframe>
-
 <h2>Technologies Used :</h2>
 <p><b>Front-End<b><p>
     <li>HTML</li>
