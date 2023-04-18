@@ -69,9 +69,8 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
     <li>CPU Platform - AMD Milian </li>
     <li>Architecture - X86/64 </li>
     <li> Zone - Oregon (us-west1-a)</li>
-       
+      <br> 
     <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png">
-       
     <h2>Team Members :</h2>
    <li>R.V.Sidhardha - Backend Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
      <li>P.Sai Gowtham - Frontend Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
