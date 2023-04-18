@@ -61,7 +61,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
     <li>CPU Platform - AMD Milian </li>
     <li>Architecture - X86/64 </li>
     <li> Zone - Oregon (us-west1-a)</li>
-    <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png" width="200px">
+    <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png">
     <h2>Team Members :</h2>
    <li>R.V.Sidhardha - Backend Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
      <li>P.Sai Gowtham - Frontend Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
