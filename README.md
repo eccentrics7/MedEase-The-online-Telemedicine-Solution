@@ -51,7 +51,6 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
      <li>Dialog Flow API</li>
    <li>Open Weather API </li>
    <li>Video SDK API </li>
-   
     <br>
     <p><b>TOOLS<b><p>
     <li>Github</li>
@@ -64,8 +63,8 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
        <br>
        
 <p><b>CLOUD<b><p>
-    <li>Google Cloud</li>   
-    <p> Instance Configuration </p> 
+   <li>Google Cloud</li>  
+    <h6> Instance Configuration <h6> 
     <li>Machine Type - t2d-standard-1 </li>
     <li>CPU Platform - AMD Milian </li>
     <li>Architecture - X86/64 </li>
