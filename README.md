@@ -1,7 +1,5 @@
 <h1>MedEase - The online Telemedicine Solution </h1>
-
 <img src="docs/img/Screenshot 2023-04-18 at 7.13.46 PM.png">
-
 <h2> Overview </h2>
 
 <p>MedEase is a comprehensive telemedicine website designed to provide patients with convenient access to quality healthcare services from the comfort of their homes. With MedEase, patients can connect with licensed doctors through video conferencing and chat, making it easy to receive the medical attention they need without leaving their homes.
