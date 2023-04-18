@@ -50,25 +50,18 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
      <li>FIREBASE</li>
      <li>Dialog Flow API></li>
     <br>
-    
     <p><b>TOOLS<b><p>
     <li>Github</li>
      <li>Figma</li>
      <li>Canva</li>
-     
 <p><b>CLOUD<b><p>
     <li>Google Cloud</li>   
-
     <p> Instance Configuration </p> 
     <li>Machine Type - t2d-standard-1 </li>
     <li>CPU Platform - AMD Milian </li>
     <li>Architecture - X86/64 </li>
     <li> Zone - Oregon (us-west1-a)</li>
-    
     <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png" width="200px">
-    
-   
-    
     <h2>Team Members :</h2>
    <li>R.V.Sidhardha - Backend Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
      <li>P.Sai Gowtham - Frontend Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
