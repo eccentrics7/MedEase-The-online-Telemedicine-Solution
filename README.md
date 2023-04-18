@@ -36,7 +36,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 <li><ul>End of consultation.<ul>Once the consultation is over, the doctor ends the video conference call, and the patient logs out of the platform.</ul></ul></li>
 <li><ul>Prescription Storage for Future purpose<ul>After the end of consultancy also prescription is stored for a time </ul></ul></li>
 <h2> Here is the Complete Documentation 🔗 </h2>
-Link : <a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpleh1S39FQWaO7uBQ/edit#">DOCUMENTATION</a>
+Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpleh1S39FQWaO7uBQ/edit#">DOCUMENTATION</a></h4>
 <h2>Technologies Used :</h2>
 <p><b>Front-End<b><p>
     <li>HTML</li>
@@ -54,6 +54,7 @@ Link : <a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpl
     <li>Github</li>
      <li>Figma</li>
      <li>Canva</li>
+       <br>
 <p><b>CLOUD<b><p>
     <li>Google Cloud</li>   
     <p> Instance Configuration </p> 
