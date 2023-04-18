@@ -20,7 +20,6 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
   <li>The chat message support feature enables patients and doctors to communicate easily and securely, ensuring that patients receive the support and advice they need when they need it.</li>
  <li>Patients can share documents with doctors while conferencing, providing doctors with the information they need to make informed decisions about their care.</li>
   <li>MedEase tracks the time spent per call between doctor and patient, providing transparency and accountability and ensuring that patients receive the care they need in a timely manner.</li>
- 
 
 <h2> Flow of the Project </h2>
 
@@ -69,6 +68,7 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
     <li>CPU Platform - AMD Milian </li>
     <li>Architecture - X86/64 </li>
     <li> Zone - Oregon (us-west1-a)</li>
+       <li>IP :<a href="http://35.185.206.120"> 35.185.206.120 </a></li>
       <br> 
     <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png">
     <h2>Team Members :</h2>
