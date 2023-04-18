@@ -48,12 +48,19 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
     <li>Google Maps API</li>
      <li>Google Calendar API</li>
      <li>FIREBASE</li>
-     <li>Dialog Flow API></li>
+     <li>Dialog Flow API</li>
+   <li>Open Weather API </li>
+   <li>Video SDK API </li>
+   
     <br>
     <p><b>TOOLS<b><p>
     <li>Github</li>
      <li>Figma</li>
      <li>Canva</li>
+       <li>Google Docs</li>
+       <li>Trello</li>
+       <li>Google Keep</li>
+       <li>Notion</li>
        <br>
        
 <p><b>CLOUD<b><p>
