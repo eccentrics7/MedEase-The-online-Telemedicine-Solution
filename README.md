@@ -36,6 +36,8 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 <li><ul>Prescription Storage for Future purpose<ul>After the end of consultancy also prescription is stored for a time </ul></ul></li>
 <h2> Documentation 🔗 </h2>
 Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpleh1S39FQWaO7uBQ/edit#">DOCUMENTATION</a></h4>
+<h2>Greet our Receptionist 🤖 </h2>
+<a href="https://t.me/medease16_bot">CHAT HERE</a>
 <h2>Technologies Used :</h2>
 <p><b>Front-End<b><p>
     <li>HTML</li>
@@ -74,7 +76,7 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
     <h2>Team Members :</h2>
    <li>R.V.Sidhardha -  Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
      <li>P.Sai Gowtham -  Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
-     <li>Reshma Tejeswani.P -  Developer , Content Head - <a href="https://github.com/Reshma4167">GITHUB</a></li>
+     <li>Reshma Tejeswani.P -  Developer , Technical Writer - <a href="https://github.com/Reshma4167">GITHUB</a></li>
       <li>V.Eswara Rao -   Developer , Tester - <a href="https://github.com/ESWARVETLA-19">GITHUB</a></li>   
         
         
