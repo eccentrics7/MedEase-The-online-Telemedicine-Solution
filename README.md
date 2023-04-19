@@ -1,6 +1,6 @@
 <h1>MedEase - The online Telemedicine Solution </h1>
 <img src="docs/img/Screenshot 2023-04-18 at 7.13.46 PM.png">
-<h2> Overview </h2>
+<h2> Overview 👨‍⚕️</h2>
 
 <p>MedEase is a comprehensive telemedicine website designed to provide patients with convenient access to quality healthcare services from the comfort of their homes. With MedEase, patients can connect with licensed doctors through video conferencing and chat, making it easy to receive the medical attention they need without leaving their homes.
 
@@ -12,7 +12,7 @@ In addition to video conferencing and chat, MedEase also offers a range of other
 
 Overall, MedEase is a reliable and easy-to-use platform that offers patients the convenience and flexibility they need to access quality healthcare services from the comfort of their own homes.</p>
 
-<h2> Features </h2>
+<h2> Features 🏥</h2>
 <li>The application is designed to cater to the needs of multiple doctors and hospitals, providing a comprehensive healthcare solution that is scalable and flexible to meet the needs of any healthcare organization.</li>
    <li>The website provides a range of advanced features that make it easy for patients to receive the care they need from the comfort of their own homes.</li>
   <li>
@@ -21,7 +21,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
  <li>Patients can share documents with doctors while conferencing, providing doctors with the information they need to make informed decisions about their care.</li>
   <li>MedEase tracks the time spent per call between doctor and patient, providing transparency and accountability and ensuring that patients receive the care they need in a timely manner.</li>
 
-<h2> Flow of the Project </h2>
+<h2> Flow of the Project 💻</h2>
 
 <li><ul>User Login<ul>The patient and doctor log in to the platform using their registered email and password.</ul></ul></li>
 <li><ul>Patient logs in and fills in the issue.<ul>The patient fills in their issue(s) and shares relevant information regarding their health history, current symptoms, etc.</ul></ul></li>
@@ -38,7 +38,7 @@ Doctors on MedEase can fill prescriptions and provide medication to patients as 
 Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8Nxpleh1S39FQWaO7uBQ/edit#">DOCUMENTATION</a></h4>
 <h2>Greet our Receptionist 🤖 </h2>
 <a href="https://t.me/medease16_bot">CHAT HERE</a>
-<h2>Technologies Used :</h2>
+<h2>Technologies Used 📱</h2>
 <p><b>Front-End<b><p>
     <li>HTML</li>
      <li>CSS</li>
@@ -73,7 +73,7 @@ Link : <h4><a href="https://docs.google.com/document/d/19_XXt9bEmvU4Wv9oCiRHygB8
     <li>IP :<a href="http://35.185.206.120"> 35.185.206.120 </a></li>
       <br> 
     <img src="docs/img/Screenshot 2023-04-18 at 6.51.47 PM.png">
-    <h2>Team Members :</h2>
+    <h2>Team Members 🧑‍🤝‍🧑</h2>
    <li>R.V.Sidhardha -  Developer , Cloud Developer ,UI Designer - <a href="https://github.com/sidhu2003">GITHUB</a></li>
      <li>P.Sai Gowtham -  Developer , UX Developer - <a href="https://github.com/p-sai-gowtham">GITHUB</a></li>
      <li>Reshma Tejeswani.P -  Developer , Technical Writer - <a href="https://github.com/Reshma4167">GITHUB</a></li>
