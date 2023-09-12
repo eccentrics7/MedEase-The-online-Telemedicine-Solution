@@ -1,355 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="website icon" type="png"  href="img/medlogo.png"> -->
-    <title>MedEase</title>
-    <link
-      rel="stylesheet"
-      href="  https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="website icon" type="png" href="img/medlogo.png" />
-    <link rel="stylesheet" href="landing.css" />
-  </head>
 
-  <body>
-    <!-- Navbar -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="website icon" type="png"  href="img/medlogo.png"> -->
+  <title>MedEase</title>
+  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="website icon" type="png" href="img/medlogo.png" />
+  <link rel="stylesheet" href="landing.css" />
+</head>
 
-    <nav
-      class="navbar navbar-expand-lg sticky-top container-fluid"
-      style="background-color: #f0fbfc"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html" style="padding-left: 2%">
-          <img src="img/medlogo.png" alt="Logo" width="100" height="100" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navLinks">
-            <li class="nav-item mx-3">
-              <a class="nav-link fs-4" aria-current="page" href="./index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link fs-4" href="./diet.html">Diet</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link fs-4" href="./aboutus.html">Aboutus</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link fs-4" href="./signup.html">Signin/Signup</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search" action="./signup.html">
-            <button class="btn btn-outline-success btn-lg" type="submit">
-              Book now
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+<body>
+  <!-- Navbar -->
 
-    <!-- carasoel -->
-
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/1.png" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="img/2.png" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="img/3.png" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+  <nav class="navbar navbar-expand-lg sticky-top container-fluid" style="background-color: #f0fbfc">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html" style="padding-left: 2%">
+        <img src="img/medlogo.png" alt="Logo" width="100" height="100" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- Hero Desc -->
-
-    <p class="text-center text-dark txt-1">We Make it Easy to Get Started</p>
-    <p class="text-center text-dark txt-2">by keeping things simple</p>
-
-    <!-- Cards -->
-
-    <div class="row text-center">
-      <div class="col-lg-4 d-flex justify-content-center col1">
-        <div class="card" style="width: 18rem">
-          <img src="img/L1.jpg"card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text text-dark text-center">
-              <b id="bld">Multi Doc and Hospital Support</b>
-              <br />Offering video calls with doctors on a website is a great
-              way to provide patients with convenient and accessible medical
-              care. Video calls can be conducted in real-time, allowing patients
-              to have virtual appointments with doctors from the comfort of
-              their own homes or any other location with an internet
-              connection..
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 d-flex justify-content-center col2">
-        <div class="card" style="width: 18rem">
-          <img src="img/L2.jpg" class="card-img-top" alt="..." height="200px" />
-          <div class="card-body">
-            <p class="card-text text-dark text-center">
-              <b id="bld">Nearby Hospitals and Pharma Location</b
-              ><br />Using maps to locate nearby pharmacies and hospitals
-              on a website can be a very useful feature for users who need quick
-              access to medical facilities. By integrating maps into the
-              website, users can easily search for and locate pharmacies and
-              hospitals that are closest to their current location.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 d-flex justify-content-center col3">
-        <div class="card" style="width: 18rem">
-          <img src="img/L3.jpg" class="card-img-top" alt="..." height="200px" />
-          <div class="card-body">
-            <p class="card-text text-dark text-center">
-              <b id="bld">HIPPA Compliance Verified</b>
-              <br />
-              
-              we are committed to safeguarding it in accordance with HIPAA
-              regulations. Our website and patient portal are also designed with
-              HIPAA compliance in mind. We use secure communication channels and
-              access controls to protect your PHI from unauthorized access or
-              disclosure.
-            </p>
-          </div>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navLinks">
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-4" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-4" href="./diet.html">Diet</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-4" href="./aboutus.html">Aboutus</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-4 sin" href="./signup.html">Signin/Signup</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="./signup.html">
+          <button class="btn btn-outline-success btn-lg" type="submit">
+            Book now
+          </button>
+        </form>
       </div>
     </div>
+  </nav>
 
-    <!-- bottom -->
+  <!-- carasoel -->
 
-    <div class="container-fluid bottom">
-      <div class="container">
-        <p class="text-center text-light txt-1">Accessible from everywhere</p>
-        <p class="text-center text-light txt-2">
-          Your desktop, tablet & smartphone
-        </p>
-        <img src="img/accessiblefromanywhere.png" class="img" alt="" />
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.png" class="d-block w-100" alt="..." />
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <!-- FAQ'S -->
+  <!-- Hero Desc -->
 
-    <div class="container faq" id="faq">
-      <p class="text-center text-dark mb-5 txt-1">
-        Frequently Asked Question's
+  <p class="text-center text-dark txt-1">We Make it Easy to Get Started</p>
+  <p class="text-center text-dark txt-2">by keeping things simple</p>
+
+  <!-- Cards -->
+
+  <div class="row text-center">
+    <div class="col-lg-4 d-flex justify-content-center col1">
+      <div class="card" style="width: 18rem">
+        <img src="img/L1.jpg" card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-dark text-center">
+            <b id="bld">Multi Doc and Hospital Support</b>
+            <br />Offering video calls with doctors on a website is a great
+            way to provide patients with convenient and accessible medical
+            care. Video calls can be conducted in real-time, allowing patients
+            to have virtual appointments with doctors from the comfort of
+            their own homes or any other location with an internet
+            connection..
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 d-flex justify-content-center col2">
+      <div class="card" style="width: 18rem">
+        <img src="img/L2.jpg" class="card-img-top" alt="..." height="200px" />
+        <div class="card-body">
+          <p class="card-text text-dark text-center">
+            <b id="bld">Nearby Hospitals and Pharma Location</b><br />Using maps to locate nearby pharmacies and
+            hospitals
+            on a website can be a very useful feature for users who need quick
+            access to medical facilities. By integrating maps into the
+            website, users can easily search for and locate pharmacies and
+            hospitals that are closest to their current location.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 d-flex justify-content-center col3">
+      <div class="card" style="width: 18rem">
+        <img src="img/L3.jpg" class="card-img-top" alt="..." height="200px" />
+        <div class="card-body">
+          <p class="card-text text-dark text-center">
+            <b id="bld">HIPPA Compliance Verified</b>
+            <br />
+
+            we are committed to safeguarding it in accordance with HIPAA
+            regulations. Our website and patient portal are also designed with
+            HIPAA compliance in mind. We use secure communication channels and
+            access controls to protect your PHI from unauthorized access or
+            disclosure.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- bottom -->
+
+  <div class="container-fluid bottom">
+    <div class="container">
+      <p class="text-center text-light txt-1">Accessible from everywhere</p>
+      <p class="text-center text-light txt-2">
+        Your desktop, tablet & smartphone
       </p>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      />
-      <div class="boxaccordion">
-        <div class="containerwidth">
-          <div class="wrapper">
-            <button class="toggle">
-              Is MEDEASE secure?<i class="fas fa-plus icon"></i>
-            </button>
-            <div class="content">
-              <p>
-                Yes, medease website is secure and follow strict privacy laws
-                and regulations. All communication between patients and
-                healthcare professionals is encrypted to protect patient
-                privacy.
-              </p>
-            </div>
+      <img src="img/accessiblefromanywhere.png" class="img" alt="" />
+    </div>
+  </div>
+
+  <!-- FAQ'S -->
+
+  <div class="container faq" id="faq">
+    <p class="text-center text-dark mb-5 txt-1">
+      Frequently Asked Question's
+    </p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <div class="boxaccordion">
+      <div class="containerwidth">
+        <div class="wrapper">
+          <button class="toggle">
+            Is MEDEASE secure?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              Yes, medease website is secure and follow strict privacy laws
+              and regulations. All communication between patients and
+              healthcare professionals is encrypted to protect patient
+              privacy.
+            </p>
           </div>
-          <div class="wrapper">
-            <button class="toggle">
-              Can I use this website if I don't have health insurance?<i
-                class="fas fa-plus icon"
-              ></i>
-            </button>
-            <div class="content">
-              <p>
-                Yes, you can use a telemedicine website even if you don't have
-                health insurance. Many telemedicine websites offer affordable
-                pricing and payment options for patients without insurance.
-              </p>
-            </div>
+        </div>
+        <div class="wrapper">
+          <button class="toggle">
+            Can I use this website if I don't have health insurance?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              Yes, you can use a telemedicine website even if you don't have
+              health insurance. Many telemedicine websites offer affordable
+              pricing and payment options for patients without insurance.
+            </p>
           </div>
-          <div class="wrapper">
-            <button class="toggle">
-              Do I still need to see a doctor in person if I use this website?<i
-                class="fas fa-plus icon"
-              ></i>
-            </button>
-            <div class="content">
-              <p>
-                In some cases, you may still need to see a doctor in person for
-                certain medical conditions or procedures. However, many medical
-                conditions can be diagnosed and treated remotely through our
-                website, and you may not need to see a doctor in person.
-              </p>
-            </div>
+        </div>
+        <div class="wrapper">
+          <button class="toggle">
+            Do I still need to see a doctor in person if I use this website?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              In some cases, you may still need to see a doctor in person for
+              certain medical conditions or procedures. However, many medical
+              conditions can be diagnosed and treated remotely through our
+              website, and you may not need to see a doctor in person.
+            </p>
           </div>
-          <div class="wrapper">
-            <button class="toggle">
-              How do I use a MEDEASE?<i class="fas fa-plus icon"></i>
-            </button>
-            <div class="content">
-              <p>
-                To use a medease website, you typically need to create an
-                account, provide your medical history and information, and
-                schedule an appointment with a healthcare professional. During
-                the appointment, you will connect with the healthcare
-                professional using video or audio calls, and they will provide
-                medical advice and treatment.
-              </p>
-            </div>
+        </div>
+        <div class="wrapper">
+          <button class="toggle">
+            How do I use a MEDEASE?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              To use a medease website, you typically need to create an
+              account, provide your medical history and information, and
+              schedule an appointment with a healthcare professional. During
+              the appointment, you will connect with the healthcare
+              professional using video or audio calls, and they will provide
+              medical advice and treatment.
+            </p>
           </div>
-          <div class="wrapper">
-            <button class="toggle">
-              Is medease secure?<i class="fas fa-plus icon"></i>
-            </button>
-            <div class="content">
-              <p>
-                Yes, medease website is secure and follow strict privacy laws
-                and regulations. All communication between patients and
-                healthcare professionals is encrypted to protect patient
-                privacy.
-              </p>
-            </div>
+        </div>
+        <div class="wrapper">
+          <button class="toggle">
+            Is medease secure?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              Yes, medease website is secure and follow strict privacy laws
+              and regulations. All communication between patients and
+              healthcare professionals is encrypted to protect patient
+              privacy.
+            </p>
           </div>
-          <div class="wrapper">
-            <button class="toggle">
-              What services can be provided through this website?<i
-                class="fas fa-plus icon"
-              ></i>
-            </button>
-            <div class="content">
-              <p>
-                Medease can be used for a variety of medical services, including
-                consultations, diagnosis, treatment, monitoring, and medication
-                management.
-              </p>
-            </div>
+        </div>
+        <div class="wrapper">
+          <button class="toggle">
+            What services can be provided through this website?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              Medease can be used for a variety of medical services, including
+              consultations, diagnosis, treatment, monitoring, and medication
+              management.
+            </p>
           </div>
-          <div class="wrapper">
-            <button class="toggle">
-              What if I need in-person care after a appointment?<i
-                class="fas fa-plus icon"
-              ></i>
-            </button>
-            <div class="content">
-              <p>
-                If the provider determines that you need in-person care, they
-                will refer you to an appropriate healthcare provider or
-                facility.
-              </p>
-            </div>
+        </div>
+        <div class="wrapper">
+          <button class="toggle">
+            What if I need in-person care after a appointment?<i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              If the provider determines that you need in-person care, they
+              will refer you to an appropriate healthcare provider or
+              facility.
+            </p>
           </div>
         </div>
       </div>
     </div>
-                                
-                                
+  </div>
 
-    <!-- footer -->
 
-    <footer>
-      <div class="content-f">
-        <div class="left box-f">
-          <div class="upper">
-            <div class="topic">About us</div>
-            <p>
-              MedEase is a thorough telemedicine website created to give
-              consumers easy access to high-quality healtcare services from the
-              convenience of their homes.
-            </p>
-          </div>
-          <div class="lower">
-            <div class="topic">Contact us</div>
-            <div class="phone">
-              <a href="#"><i class="fas fa-phone-volume"></i>+91 8074600457</a>
-            </div>
-            <div class="email">
-              <a href="#"><i class="fas fa-envelope"></i>medease@gmail.com</a>
-            </div>
-          </div>
+
+  <!-- footer -->
+
+  <footer>
+    <div class="content-f">
+      <div class="left box-f">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>
+            MedEase is a thorough telemedicine website created to give
+            consumers easy access to high-quality healtcare services from the
+            convenience of their homes.
+          </p>
         </div>
-        <div class="middle box-f">
-          <div class="topic">Our Services</div>
-          <div><a href="./diet.html">DIET</a></div>
-          <div><a href="./aboutus.html">About Us</a></div>
-          <div><a href="#">Nearby Pharmas</a></div>
-          <div><a href="./map.html"> Nearby Hospitals</a></div>
-          <div><a href="./index.html#faq">FAQ's</a></div>
-        </div>
-        <div class="right box-f">
-          <div class="topic">Subscribe us</div>
-          <form action="#">
-            <input type="text" placeholder="Enter email address" />
-            <input type="submit" name="" value="Send" />
-            <div class="media-icons">
-              <a href="#" class="me-3"><img src="img/icons8-facebook.svg" /></a>
-              <a href="#" class="me-3"><img src="img/icons8-twitter.svg" /></a>
-              <a href="#" class="me-4"
-                ><img src="img/icons8-instagram.svg"
-              /></a>
-              <a href="#" class="me-4"><img src="img/icons8-github.svg" /></a>
-              <a href="#" class="me-3"
-                ><img src="img/icons8-linkedin-circled.svg"
-              /></a>
-            </div>
-          </form>
+        <div class="lower">
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+91 8074600457</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>medease@gmail.com</a>
+          </div>
         </div>
       </div>
-      <div class="bottom-f mt-4">
-        <p>
-          Copyright © 2023 <a href="./index.html">MedEase</a> All rights
-          reserved
-        </p>
+      <div class="middle box-f">
+        <div class="topic">Our Services</div>
+        <div><a href="./diet.html">DIET</a></div>
+        <div><a href="./aboutus.html">About Us</a></div>
+        <div><a href="#">Nearby Pharmas</a></div>
+        <div><a href="./map.html"> Nearby Hospitals</a></div>
+        <div><a href="./index.html#faq">FAQ's</a></div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script src="landing.js"></script>
-  </body>
+      <div class="right box-f">
+        <div class="topic">Subscribe us</div>
+        <form action="#">
+          <input type="text" placeholder="Enter email address" />
+          <input type="submit" name="" value="Send" />
+          <div class="media-icons">
+            <a href="#" class="me-3"><img src="img/icons8-facebook.svg" /></a>
+            <a href="#" class="me-3"><img src="img/icons8-twitter.svg" /></a>
+            <a href="#" class="me-4"><img src="img/icons8-instagram.svg" /></a>
+            <a href="#" class="me-4"><img src="img/icons8-github.svg" /></a>
+            <a href="#" class="me-3"><img src="img/icons8-linkedin-circled.svg" /></a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="bottom-f mt-4">
+      <p>
+        Copyright © 2023 <a href="./index.html">MedEase</a> All rights
+        reserved
+      </p>
+    </div>
+  </footer>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js";
+    import { getDatabase, ref, get, set, child, update, remove } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCA8b3ITXyqdoPA7atyKoboLAOTVSaRvQk",
+      authDomain: "pro-medease.firebaseapp.com",
+      databaseURL: "https://pro-medease-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "pro-medease",
+      storageBucket: "pro-medease.appspot.com",
+      messagingSenderId: "709118952812",
+      appId: "1:709118952812:web:53d0ce620960a07b22df49",
+      measurementId: "G-CX4WZMGEYS"
+    };
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase();
+
+    function GetData() {
+      const dbref = ref(db);
+
+      get(child(dbref, "people/" + "Name"))
+        .then((snapshot) => {
+          if (snapshot.exists()) {
+
+            //console.log(snapshot.val().status);
+            //console.log(snapshot.val().Name);
+            if (snapshot.val().status === "true") {
+              document.querySelector(".sin").innerHTML = "Profile";
+              document.querySelector(".sin").href = "./profile.html";
+
+
+              // document.querySelector("#login-btn").style.display = "visible";
+
+            }
+            else {
+              document.querySelector(".sin").innerHTML = "Signin/Signup";
+
+
+            }
+          }
+          else {
+            alert("error");
+          }
+
+        }
+
+        )
+    }
+
+    GetData();
+
+
+    // const profile = document.getElementById('login-btn');
+    // profile.addEventListener('click', function () {
+    //   window.location.href = "./profile.html";
+    // })
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="landing.js"></script>
+</body>
+
 </html>
