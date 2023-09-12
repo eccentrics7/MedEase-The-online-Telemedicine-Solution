@@ -23,6 +23,20 @@
     <br>
     <div id="msg" class="container-fluid">
       <div class="input_container" id="msg-e">
+        <label class="input_label" for="email_field">Username:</label>
+        <svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg" class="icon">
+          <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#141B34"
+            d="M7 8.5L9.94202 10.2394C11.6572 11.2535 12.3428 11.2535 14.058 10.2394L17 8.5"></path>
+          <path stroke-linejoin="round" stroke-width="1.5" stroke="#141B34"
+            d="M2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.7551 19.2094C21.8862 18.0739 21.9189 16.5412 21.9842 13.4756C22.0053 12.4899 22.0053 11.5101 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756Z">
+          </path>
+        </svg>
+        <input placeholder="Enter Username" title="Inpit title" name="input-name" type="text" class="input_field"
+          id="name_field">
+      </div>
+    </div>
+    <div id="msg" class="container-fluid">
+      <div class="input_container" id="msg-e">
         <label class="input_label" for="email_field">Email</label>
         <svg fill="none" viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg" class="icon">
           <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#141B34"
@@ -90,16 +104,17 @@
 
     // Your web app's Firebase configuration 
     const firebaseConfig = {
-      apiKey: "AIzaSyBtltkJ5zmqKuYGj5NGauDVPAw9rDueHug",
-      authDomain: "medease-d926d.firebaseapp.com",
-      databaseURL: "https://medease-d926d-default-rtdb.firebaseio.com",
-      projectId: "medease-d926d",
-      storageBucket: "medease-d926d.appspot.com",
-      messagingSenderId: "908486701304",
-      appId: "1:908486701304:web:af6ab389e243a1bbb08b0d"
+      apiKey: "AIzaSyCA8b3ITXyqdoPA7atyKoboLAOTVSaRvQk",
+      authDomain: "pro-medease.firebaseapp.com",
+      databaseURL: "https://pro-medease-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "pro-medease",
+      storageBucket: "pro-medease.appspot.com",
+      messagingSenderId: "709118952812",
+      appId: "1:709118952812:web:53d0ce620960a07b22df49",
+      measurementId: "G-CX4WZMGEYS"
     };
-
     // Initialize Firebase 
+    const enterName = document.querySelector("#name_field");
     const app = initializeApp(firebaseConfig);
     import { getDatabase, get, set, ref, update, remove, child } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
 
@@ -119,7 +134,7 @@
       container.insertBefore(div, form);
       setTimeout(() => {
         document.querySelector('.alert').remove();
-        window.location.href = "./dashboard.html";
+        // window.location.href = "./dashboard.html";
       }, 2000);
     };
 
@@ -133,16 +148,27 @@
           const user = userCredential.user;
 
           alert("You have signed in successfully!", "success");
+          set(ref(db, "people/" + "Name"), {
+            Name: enterName.value,
+            status: "true"
+          })
+            .then(() => {
 
+              window.location.href = './index.html';
+              // window.location.href = "./index.html";
+            })
+            .catch((error) => {
+              alert(error);
+            });
         })
-        .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-        });
+    })
+      // .catch((error) => {
+      //   const errorCode = error.code;
+      //   const errorMessage = error.message;
+      //   document.alert(errorMessage);
+      //   alert(error);
+      // });
 
-    }
-
-    )
 
   </script>
 </body>
