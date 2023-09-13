@@ -81,7 +81,7 @@ class UI {
         <td>${item.time}</td>
         <td>${item.doctor}</td>
         <td>${item.code}</td>
-        <td><a href="./video.html" class="btn btn-primary">Join Meet</a></td>
+        <td><a href="https://demo.videosdk.live/conference-meeting/y3bw-xq5p-1yks" class="btn btn-primary">Join Meet</a></td>
         `;
     list.appendChild(tr);
   }
