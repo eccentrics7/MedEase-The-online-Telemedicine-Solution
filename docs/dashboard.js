@@ -8,7 +8,7 @@ class Dashboard {
   }
 }
 var num = 1;
-var date = "16/4/2023";
+var date = "16/9/2023";
 var time = "10:00 AM";
 var doctor = "Dr. Srikar";
 var code = "3grk-ptk3-lv15";
@@ -39,7 +39,7 @@ checkout.addEventListener("click", (e) => {
   pay.style.display = "none";
   num = num + 1;
   if (num === 2) {
-    date = "16/4/2023";
+    date = "16/9/2023";
     time = "11:00 AM";
     doctor = "Dr. Reshma";
     code = "tnyp-v40z-5y8b";
@@ -64,7 +64,7 @@ class UI {
     const dashboard = [
       {
         sno: "1",
-        date: "15/4/2023",
+        date: "15/9/2023",
         time: "10:00 AM",
         doctor: "Dr. Srikar",
         code: "3grk-ptk3-lv15"
