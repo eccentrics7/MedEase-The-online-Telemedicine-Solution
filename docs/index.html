@@ -325,6 +325,10 @@
       appId: "1:709118952812:web:53d0ce620960a07b22df49",
       measurementId: "G-CX4WZMGEYS"
     };
+
+    const load = document.querySelector(".loader");
+    const page = document.querySelector(".page");
+    page.style.display = "none";
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const db = getDatabase();
@@ -345,12 +349,16 @@
 
               sin.style.display = 'none';
               profile.style.display = 'block';
+              load.style.display = "none";
+              page.style.display = "block";
               // document.querySelector("#login-btn").style.display = "visible";
 
             }
             else {
               sin.style.display = 'block';
               profile.style.display = 'none';
+              load.style.display = "none";
+              page.style.display = "block";
 
             }
           }
@@ -365,13 +373,7 @@
 
     GetData();
 
-    const load = document.querySelector(".loader");
-    const page = document.querySelector(".page");
-    page.style.display = "none";
-    window.addEventListener("load", () => {
-      load.style.display = "none";
-      page.style.display = "block";
-    });
+
 
     // const profile = document.getElementById('login-btn');
     // profile.addEventListener('click', function () {
