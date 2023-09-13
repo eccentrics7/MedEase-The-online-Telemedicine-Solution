@@ -48,8 +48,13 @@
               <a class="nav-link fs-4 profile" href="./profile.html">Profile</a>
             </li>
           </ul>
-          <form class="d-flex" role="search" action="./signup.html">
-            <button class="btn btn-outline-success btn-lg" type="submit">
+          <form class="d-flex " role="search" action="./signup.html">
+            <button class="btn btn-outline-success btn-lg sinin" type="submit">
+              Book now
+            </button>
+          </form>
+          <form class="d-flex " role="search" action="./appointment.html">
+            <button class="btn btn-outline-success btn-lg app" type="submit">
               Book now
             </button>
           </form>
@@ -337,6 +342,8 @@
       const dbref = ref(db);
       const sin = document.querySelector(".sin");
       const profile = document.querySelector(".profile");
+      const sinin = document.querySelector(".sinin");
+      const app = document.querySelector(".app"); 
 
 
       get(child(dbref, "people/" + "Name"))
@@ -349,8 +356,10 @@
 
               sin.style.display = 'none';
               profile.style.display = 'block';
-              load.style.display = "none";
-              page.style.display = "block";
+              sinin.style.display = 'none';
+              app.style.display = 'block';
+              load.style.display = 'none';
+              page.style.display = 'block';
               // document.querySelector("#login-btn").style.display = "visible";
 
             }
@@ -359,6 +368,8 @@
               profile.style.display = 'none';
               load.style.display = "none";
               page.style.display = "block";
+              sinin.style.display = 'block';
+              app.style.display = 'none';
 
             }
           }
